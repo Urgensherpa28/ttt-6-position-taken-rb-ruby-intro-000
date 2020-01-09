@@ -2,7 +2,7 @@
 def position_taken?(board, index)
   if board[0] != " "  || board[0] != "" || board[0] != nil
     false
-  else board[0] != "X" || board[8] != "X" || board[0] != "O" || board[8] != "O"
+  else index[0] != "X" || index[8] != "X" || index[0] != "O" || index[8] != "O"
     true
   end
 end
